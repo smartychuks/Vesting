@@ -3,7 +3,9 @@ import Head from "next/head";
 import React, {useEffect, useRef, useState } from 'react';
 import Web3Modal from 'web3modal';
 import styles from "../styles/Home.module.css";
-import { transferTokens, depositTokens, unlock5Percent } from './utils/transferTokens';
+import { transferTokens } from './utils/transferTokens';
+import { depositTokens } from './utils/depositTokens';
+import { unlock5Percent } from './utils/unlock5Percent';
 
 export default function Home(){
     const [loading, setLoading] = useState(0);

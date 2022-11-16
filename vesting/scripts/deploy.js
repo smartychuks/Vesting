@@ -5,7 +5,7 @@ async function main() {
   const timelockContract = await ethers.getContractFactory("Timelock");
  
   //deploy the contract
-  const deployedTimelockContract = await timelockContract.deploy("0xC5C5453AbDe9C09C95b89bf5D218Dc3828f013aC");
+  const deployedTimelockContract = await timelockContract.deploy("0xCA034E370686eb18eb7f63706338ab16f43e4644");
 
   // To display address of deployed contract
   console.log(
